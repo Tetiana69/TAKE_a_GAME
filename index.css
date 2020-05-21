@@ -1,0 +1,60 @@
+body {
+	height: 100vh;
+	margin: 0;
+	color: white;
+	font-family: Arial, sans-serif;
+
+	background: url('./image/background.jpg') no-repeat center;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	font-family: inherit;
+	color: inherit;
+	text-decoration: none;
+}
+
+header {
+	height: 15vh;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav__item {
+	background-color: #FF3300;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	color: black;
+	padding-bottom: 30;
+	margin-right: 50px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-button {
+	background-color: tomato;
+	padding: 10px 20px;
+	margin: 20px;
+}
+
+.banner {
+	display: none;
+}
+
+.goust {
+  padding: 5px; /* Поля вокруг текста */
+  background: url(./image/back.png);
+  width: 60%;
+  color: black;
+  border-radius: 30px;
+}
